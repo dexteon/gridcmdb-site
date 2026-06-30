@@ -1,0 +1,182 @@
+[
+  {
+    "keyword": "Claroty alternative",
+    "global_volume": "0",
+    "us_volume": "0",
+    "cpc": "$0.00",
+    "difficulty": "15%",
+    "difficulty_label": "Easy",
+    "intent": "Investigational"
+  },
+  {
+    "keyword": "Dragos alternative",
+    "global_volume": "0",
+    "us_volume": "0",
+    "cpc": "$0.00",
+    "difficulty": "15%",
+    "difficulty_label": "Easy",
+    "intent": "Investigational"
+  },
+  {
+    "keyword": "Nozomi alternative",
+    "global_volume": "13",
+    "us_volume": "10",
+    "cpc": "$9.97",
+    "difficulty": "76%",
+    "difficulty_label": "Hard",
+    "intent": "Investigational"
+  },
+  {
+    "keyword": "Armis alternative",
+    "global_volume": "?",
+    "us_volume": "?",
+    "cpc": "?",
+    "difficulty": "?",
+    "difficulty_label": "?",
+    "intent": ""
+  },
+  {
+    "keyword": "OT security platform",
+    "global_volume": "113",
+    "us_volume": "10",
+    "cpc": "$13.37",
+    "difficulty": "67%",
+    "difficulty_label": "Hard",
+    "intent": "Informational, Commercial"
+  },
+  {
+    "keyword": "ICS security tools",
+    "global_volume": "26",
+    "us_volume": "10",
+    "cpc": "$1.64",
+    "difficulty": "67%",
+    "difficulty_label": "Hard",
+    "intent": "Informational, Commercial"
+  },
+  {
+    "keyword": "industrial control system inventory",
+    "global_volume": "0",
+    "us_volume": "0",
+    "cpc": "$0.00",
+    "difficulty": "11%",
+    "difficulty_label": "Easy",
+    "intent": ""
+  },
+  {
+    "keyword": "Purdue model explained",
+    "global_volume": "33",
+    "us_volume": "10",
+    "cpc": "$2.72",
+    "difficulty": "67%",
+    "difficulty_label": "Hard",
+    "intent": "Informational"
+  },
+  {
+    "keyword": "BES cyber system categorization",
+    "global_volume": "6",
+    "us_volume": "10",
+    "cpc": "$0.00",
+    "difficulty": "41%",
+    "difficulty_label": "Medium",
+    "intent": ""
+  },
+  {
+    "keyword": "NIS2 asset register",
+    "global_volume": "0",
+    "us_volume": "0",
+    "cpc": "$0.00",
+    "difficulty": "13%",
+    "difficulty_label": "Easy",
+    "intent": ""
+  },
+  {
+    "keyword": "Claroty pricing",
+    "global_volume": "20",
+    "us_volume": "10",
+    "cpc": "$6.47",
+    "difficulty": "76%",
+    "difficulty_label": "Hard",
+    "intent": "Commercial"
+  },
+  {
+    "keyword": "Dragos pricing",
+    "global_volume": "26",
+    "us_volume": "10",
+    "cpc": "$16.93",
+    "difficulty": "76%",
+    "difficulty_label": "Hard",
+    "intent": "Commercial"
+  },
+  {
+    "keyword": "OT visibility",
+    "global_volume": "33",
+    "us_volume": "10",
+    "cpc": "$7.19",
+    "difficulty": "76%",
+    "difficulty_label": "Hard",
+    "intent": ""
+  },
+  {
+    "keyword": "ServiceNow OT",
+    "global_volume": "173",
+    "us_volume": "10",
+    "cpc": "$7.53",
+    "difficulty": "76%",
+    "difficulty_label": "Hard",
+    "intent": ""
+  },
+  {
+    "keyword": "cyber physical systems security",
+    "global_volume": "480",
+    "us_volume": "20",
+    "cpc": "$7.99",
+    "difficulty": "59%",
+    "difficulty_label": "Hard",
+    "intent": "Informational"
+  },
+  {
+    "keyword": "OT asset discovery",
+    "global_volume": "73",
+    "us_volume": "10",
+    "cpc": "$6.39",
+    "difficulty": "67%",
+    "difficulty_label": "Hard",
+    "intent": ""
+  },
+  {
+    "keyword": "ICS asset inventory",
+    "global_volume": "20",
+    "us_volume": "10",
+    "cpc": "$0.00",
+    "difficulty": "47%",
+    "difficulty_label": "Medium",
+    "intent": ""
+  },
+  {
+    "keyword": "SCADA asset management",
+    "global_volume": "6",
+    "us_volume": "10",
+    "cpc": "$0.00",
+    "difficulty": "47%",
+    "difficulty_label": "Medium",
+    "intent": ""
+  },
+  {
+    "keyword": "best OT security tools",
+    "global_volume": "0",
+    "us_volume": "0",
+    "cpc": "$0.00",
+    "difficulty": "11%",
+    "difficulty_label": "Easy",
+    "intent": "Investigational, Informational"
+  },
+  {
+    "keyword": "OT CMDB tools",
+    "global_volume": "0",
+    "us_volume": "0",
+    "cpc": "$0.00",
+    "difficulty": "13%",
+    "difficulty_label": "Easy",
+    "intent": "Informational, Commercial"
+  }
+]
