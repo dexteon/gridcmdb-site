@@ -8,9 +8,201 @@
   <meta property="og:title" content="GridCMDB — OT/ICS Asset Management on Google Workspace">
   <meta property="og:description" content="No servers. No appliances. No six-figure contracts. Deploy in an hour. See your entire estate by Friday.">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cmdb.cyberautomations.com/">
+  <meta property="og:image" content="https://cmdb.cyberautomations.com/og-image.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="GridCMDB — OT/ICS Asset Management on Google Workspace">
+  <meta property="og:site_name" content="GridCMDB">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GridCMDB — OT/ICS Asset Management on Google Workspace">
+  <meta name="twitter:description" content="No servers. No appliances. No six-figure contracts. Deploy in an hour. See your entire estate by Friday.">
+  <meta name="twitter:image" content="https://cmdb.cyberautomations.com/og-image.svg">
+  <meta name="twitter:image:alt" content="GridCMDB — OT/ICS Asset Management on Google Workspace">
+  <link rel="canonical" href="https://cmdb.cyberautomations.com/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#0a0e1a">
+  <meta name="author" content="Teon Moore">
+  <meta name="robots" content="index, follow">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Structured Data: SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "GridCMDB",
+    "applicationCategory": "SecurityApplication",
+    "operatingSystem": "Web Browser (Google Workspace)",
+    "description": "OT/ICS Configuration Management Database that runs on Google Workspace. Zero infrastructure. Deploy in an hour. 1/4 the cost of Claroty.",
+    "url": "https://cmdb.cyberautomations.com/",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Essentials",
+        "price": "1500",
+        "priceCurrency": "USD",
+        "description": "Small OT estates needing fast visibility. $5,000 setup."
+      },
+      {
+        "@type": "Offer",
+        "name": "Pro",
+        "price": "2500",
+        "priceCurrency": "USD",
+        "description": "Full CMDB with network import + compliance posture. $12,000 setup."
+      },
+      {
+        "@type": "Offer",
+        "name": "Enterprise",
+        "price": "4000",
+        "priceCurrency": "USD",
+        "description": "Large, multi-site OT environments. $25,000 setup."
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "ratingCount": "1",
+      "bestRating": "5"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "CyberAutomations",
+      "url": "https://cyberautomations.com"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "GridCMDB",
+    "url": "https://cmdb.cyberautomations.com/",
+    "logo": "https://cmdb.cyberautomations.com/favicon.svg",
+    "description": "OT/ICS Configuration Management Database that runs on Google Workspace. Zero infrastructure. Deploy in an hour.",
+    "founder": {
+      "@type": "Person",
+      "name": "Teon Moore",
+      "jobTitle": "Founder",
+      "url": "https://www.linkedin.com/in/teonmoore"
+    },
+    "foundingDate": "2026",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "CyberAutomations",
+      "url": "https://cyberautomations.com"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "teonmoore@cyberautomations.com",
+      "contactType": "sales",
+      "url": "https://calendly.com/cyberautomations/gridcmdb-demo"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Google Apps Script and is it reliable?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Google Apps Script is Google's serverless JavaScript platform. It's been in production since 2009, powers Gmail Add-ons, Google Workspace automations, and is used by millions of businesses. It has SLA-backed uptime, runs in Google's data centers, and inherits Google's SOC2/ISO27001/FedRAMP certifications. Your script executes on Google's servers—no infrastructure for you to manage."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the platform limits?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "6-minute execution cap per function call (we use chunked processing for large operations), 10 million cells per spreadsheet (we use external spreadsheets for the master view), and 20 deployment versions (we prune old versions). These are real constraints but well within the range of 5,000–15,000 asset environments."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can it handle 10,000+ assets?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The production deployment manages 11,487 real assets. The chunked rebuild system and cold-start guard handle large datasets within the 6-minute cap."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What if Google changes Apps Script?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "All code is in standard JavaScript (V8 engine). If Google deprecates something, the code can be ported to any JavaScript runtime. The data is in Google Sheets (exportable to CSV at any time). There's no lock-in beyond the effort of re-platforming—which is true of any SaaS."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How are credentials protected?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Plaintext secrets never leave the browser. SNMP communities, BGP keys, IPsec PSKs, and Type-7 passwords are hashed client-side with SHA-256 before transmission. The server stores only one-way fingerprints and boolean flags. Sensitive fields are admin-gated and redacted in the audit log."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does it integrate with our SIEM/ticketing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The CMDB has a REST API (token-authenticated) for reading inventory data and triggering writes. External systems can pull asset data, push updates, and trigger admin operations. We configure integrations during deployment (Pro/Enterprise tiers)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why not just use a spreadsheet?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Spreadsheets have no RBAC, no audit trail, no schema validation, no data quality gates, no network config import, no risk scoring, no IEC posture dashboards, and no incident tracking. They also don't scale past a few hundred rows before becoming unmaintainable. If you have under 50 assets and no compliance mandate, a spreadsheet is fine. If you have more, you need a system."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why not just buy Claroty?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If you can afford $50K–$200K/yr and want real-time network discovery, buy Claroty. If you need asset management, risk assessment, and compliance evidence at 1/4 the cost with zero infrastructure, that's us. Many companies run both—Claroty discovers, we manage."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens if you go out of business?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The CMDB runs on your Google Workspace. If we disappear, the deployed version keeps running. You lose updates and support but keep the system. Enterprise tier includes a source code license option so you can maintain it yourself."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer a free trial?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We offer a free 30-minute demo on a live environment. For a paid pilot, we offer a 30-day money-back guarantee on the setup fee if the CMDB doesn't meet your needs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does deployment take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "1 hour for the base deployment (code push + Script Properties). 1–2 weeks for full configuration (data import, normalization, vendor tuning, admin training). Go-live is typically Week 3."
+        }
+      }
+    ]
+  }
+  </script>
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -883,7 +1075,7 @@
       .final-cta-buttons { flex-direction: column; }
     }
   </style>
-<script async src="https://bolt.new/badge.js?s=099cfa5a-0bb3-4684-b45d-8479574ec489"></script></head>
+</head>
 <body>
 
   <!-- NAV -->

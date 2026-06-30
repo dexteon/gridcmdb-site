@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cmdb.cyberautomations.com/sitemap.xml

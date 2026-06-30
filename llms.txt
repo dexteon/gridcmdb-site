@@ -1,0 +1,49 @@
+# GridCMDB
+
+## What
+GridCMDB is an OT/ICS (Operational Technology / Industrial Control Systems) Configuration Management Database that runs entirely on Google Workspace. No servers. No appliances. No infrastructure to maintain.
+
+## Who
+Founded by Teon Moore, an OT security engineer (Verizon MNOT-ICS, Army Cyber Warfare 1st IO Command, M.S. Cybersecurity UMGC). Operated under CyberAutomations.
+
+## Key facts
+- Runs on Google Apps Script + Google Sheets — zero infrastructure
+- Production deployment manages 11,487 real assets
+- 130+ fields per asset (firmware, protocol, ports, credentials, IEC posture, risk drivers, incident history)
+- Multi-vendor network config import: Cisco IOS, Palo Alto PAN-OS, Cisco ASA
+- Credentials hashed client-side with SHA-256 — plaintext never leaves browser
+- IEC 62443 Security Level Target vs. Achieved posture tracking
+- 0-100 risk scoring, fully explainable
+- Six automated data quality metrics
+- Incident and change tracking per asset
+- RBAC: Admin / Editor / Viewer
+- CI pipeline with automated tests
+- Deploy time: 1 hour base, 1-2 weeks full configuration
+
+## Pricing
+- Essentials: $5,000 setup + $1,500/month
+- Pro: $12,000 setup + $2,500/month
+- Enterprise: $25,000 setup + $4,000/month
+- No per-seat charges. No usage meters. One environment, one price.
+
+## What it is NOT
+GridCMDB is not a real-time network discovery tool. It does not do packet inspection or passive traffic analysis. If you need those capabilities, use Claroty, Dragos, or Nozomi. GridCMDB is the management layer — it manages the assets those tools discover.
+
+## Compliance frameworks supported
+- IEC 62443 (Security Level Target vs. Achieved)
+- NERC CIP (CIP-002 BES categorization, CIP-007 R2 patch status)
+- NIS2 (Article 21 asset register, Article 23 incident reporting)
+- EU CRA (Cyber Resilience Act, SBOM)
+- ISO 27001 (Annex A 5.9 asset inventory)
+
+## URLs
+- Website: https://cmdb.cyberautomations.com
+- Demo booking: https://calendly.com/cyberautomations/gridcmdb-demo
+- Contact: teonmoore@cyberautomations.com
+- Parent company: https://cyberautomations.com
+- GitHub: https://github.com/dexteon/gridcmdb-site
+
+## Competitive positioning
+- Claroty: $50K-$200K/yr + appliance. GridCMDB: $18K-$73K/yr, no appliance.
+- Dragos: $50K-$150K/yr + appliance. GridCMDB: same management capability at 1/3-1/4 cost.
+- Spreadsheet: free but no RBAC, no audit trail, no schema validation, no data quality gates, no risk scoring, no compliance posture. Fails past a few hundred assets.

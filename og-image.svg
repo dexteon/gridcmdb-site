@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#0a0e1a"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#grad)"/>
+  <defs>
+    <radialGradient id="grad" cx="70%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0a0e1a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g transform="translate(80, 80)">
+    <rect width="48" height="48" rx="10" fill="#0f1422" stroke="#1e2738"/>
+    <text x="24" y="34" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="700" text-anchor="middle" fill="#00d4ff">G</text>
+  </g>
+  <text x="80" y="280" font-family="Inter, sans-serif" font-size="72" font-weight="800" fill="#ffffff">Grid<tspan fill="#00d4ff">CMDB</tspan></text>
+  <text x="80" y="330" font-family="Inter, sans-serif" font-size="28" font-weight="400" fill="#a0aec0">OT/ICS Asset Management on Google Workspace</text>
+  <text x="80" y="380" font-family="Inter, sans-serif" font-size="22" font-weight="400" fill="#6b7a90">No servers. No appliances. No six-figure contracts.</text>
+  <g transform="translate(80, 470)">
+    <text font-family="'JetBrains Mono', monospace" font-size="20" font-weight="600" fill="#00d4ff">11,487 assets</text>
+    <text x="200" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="600" fill="#00d4ff">$0 infrastructure</text>
+    <text x="440" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="600" fill="#00d4ff">1 hour deploy</text>
+    <text x="650" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="600" fill="#00d4ff">1/4 Claroty cost</text>
+  </g>
+  <rect x="80" y="560" width="1040" height="1" fill="#1e2738"/>
+  <text x="80" y="590" font-family="Inter, sans-serif" font-size="16" fill="#6b7a90">cmdb.cyberautomations.com</text>
+</svg>
